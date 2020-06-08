@@ -49,6 +49,23 @@ This is the file I used to draw all the sketches, there are two sheets:
 
 [8x8ArduinoProject.xlsx](https://github.com/francescoxu/FINAL-PROJECT-ARDUINO/files/4749104/8x8ArduinoProject.xlsx)
 
+While doing the animation of Captain america vs Iron man I found out that using array will makes my work easier.
+So first of all I create an array for let's say the blue part of the suit of captain america.
+Instead of writing every leds of it like this:
+leds[1] = CRGB::Blue;
+leds[2] = CRGB::Blue;
+etc...
+
+I put them all in an array:
+int Bsuit[] = {1,2,10,11,12,13,14,25,26,27}
+
+then in void loop()
+use the for loops to go through all the array value and set the color to blue:
+for ( int i = 0; i < 10; i++) {
+   leds[Bsuit[i]] = CRGB::Blue;
+   }
+(While I was writing this code, I sadly remembered that I could use .lenthg to find the array length instead of counting..)
+
 
 
 
