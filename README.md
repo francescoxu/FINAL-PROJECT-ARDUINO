@@ -11,6 +11,8 @@ PROCESS
 
 First of all I needed to obtain the materials, since I can't go out during this period, I searched on amazon I found the WS2811 and I bought three of them, then I got the jumping wires on amazon too.
 
-Then I did a research on how to setup the LED matrix, as a result I downloaded an arduino library to control these RGB LED, named FastLED.h. This library is used to efficently controlling the LED. After learning how control the matrix I started playing around. Then my first sketch is copied from a GIF of Mario&Luigi found on the web
+Then I did a research on how to setup the LED matrix, as a result I downloaded an arduino library to control these RGB LED, named FastLED.h. This library is used to efficently controlling the LED. After learning how control the matrix I started playing around. 
+Then my first sketch is copied from a GIF of Mario&Luigi found on the web.
+![Marioandluigi](https://user-images.githubusercontent.com/56677617/84087796-3338f180-a9eb-11ea-9194-bc2825469277.gif)
 
-
+I used microsoft excel to simplify my coding on arduino, because I can find the LED postion (or pixel) in an easier way.
