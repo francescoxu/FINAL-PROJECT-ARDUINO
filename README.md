@@ -66,6 +66,39 @@ for ( int i = 0; i < 10; i++) {
    }
 (While I was writing this code, I sadly remembered that I could use .lenthg to find the array length instead of counting..)
 
+While doing the animation of Captain america vs Iron man I found out that using array will makes my work easier.
+So first of all I create an array for let's say the blue part of the suit of captain america.
+Instead of writing every leds of it like this:
 
+```
+leds[1] = CRGB::Blue;
+leds[2] = CRGB::Blue;
+leds..........
+......
+```
+
+I put them all in an array:
+
+`int Bsuit[] = {1,2,10,11,12,13,14,25,26,27}`
+
+then in void loop()
+
+use the **for** loops to go through all the array value and set the color to blue:
+
+```
+for ( int i = 0; i < 10; i++) {
+   leds[Bsuit[i]] = CRGB::Blue;
+   }
+```
+
+_(While I was writing this code, I sadly remembered that I could use .lenthg to find the array length instead of counting..)_
+
+Here's a sneak peek of the code:
+<img width="1440" alt="Screenshot 2020-06-09 at 01 48 49" src="https://user-images.githubusercontent.com/56677617/84090997-89119780-a9f3-11ea-8f33-863de4c02e99.png">
+
+A photo of my project:
+<img width="1629" alt="Screen Shot 2020-06-09 at 1 52 27 AM" src="https://user-images.githubusercontent.com/56677617/84091172-f8878700-a9f3-11ea-92c3-7a028cd68092.png">
+
+It was very fun working with LED matrixes, I learnt a lot. I hope one day I can put them on my room with a nice case a proudly say that I didn't buy that, but I made it myself.
 
 
