@@ -99,6 +99,6 @@ Here's a sneak peek of the code:
 A photo of my project:
 <img width="1629" alt="Screen Shot 2020-06-09 at 1 52 27 AM" src="https://user-images.githubusercontent.com/56677617/84091172-f8878700-a9f3-11ea-92c3-7a028cd68092.png">
 
-It was very fun working with LED matrixes, I learnt a lot. I hope one day I can put them on my room with a nice case a proudly say that I didn't buy that, but I made it myself.
+It was very fun working with LED matrixes, I learnt a lot. I hope one day I can put them on my room with a nice case and proudly say that I didn't buy that, but I made it myself.
 
 
