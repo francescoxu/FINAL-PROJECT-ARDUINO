@@ -15,7 +15,7 @@ Then I did a research on how to setup the LED matrix, as a result I downloaded a
 Then my first sketch is copied from a GIF of Mario&Luigi found on the web.
 ![Marioandluigi](https://user-images.githubusercontent.com/56677617/84087796-3338f180-a9eb-11ea-9194-bc2825469277.gif)
 
-I used microsoft excel to simplify my coding on arduino, because I can find the LED postion (or pixel) in an easier way.
+I used microsoft excel to simplify my coding on arduino, because I can find the LED position (or pixel) in an easier way.
 
 <img width="1609" alt="Screen Shot 2020-06-09 at 12 53 01 AM" src="https://user-images.githubusercontent.com/56677617/84088064-ef92b780-a9eb-11ea-9556-befcd2a870e3.png">
 
